@@ -9,7 +9,6 @@ import br.edu.atitus.currency_service.entities.CurrencyEntity;
 
 @Repository
 public interface CurrencyRepository extends JpaRepository<CurrencyEntity, Long>{
-	
-	Optional<CurrencyEntity> findBySourceAndTarget(String source, String target);
 
+	Optional<CurrencyEntity> findBySourceAndTarget(String source, String target);
 }
