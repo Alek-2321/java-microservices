@@ -1,1 +1,294 @@
-2025-05-16 13:46:21,712 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-05-30 11:11:26,195 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-05-30 11:26:19,040 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:config-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\config-service\pom.xml.
+2025-05-30 11:26:21,482 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:currency-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\pom.xml.
+2025-05-30 11:26:22,657 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:discovery-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\discovery-service\pom.xml.
+2025-05-30 11:26:23,650 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:greating-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\greating-service\pom.xml.
+2025-05-30 11:26:24,147 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:product-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\pom.xml.
+2025-05-30 11:26:32,470 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /greating-service/src/main/java
+2025-05-30 11:26:32,477 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greating-service/src/main/resources
+2025-05-30 11:26:32,480 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greating-service/src/main/resources
+2025-05-30 11:26:32,483 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /greating-service/src/test/java
+2025-05-30 11:26:32,487 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greating-service/src/test/resources
+2025-05-30 11:26:33,583 [Worker-25: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-config/4.2.1/spring-cloud-starter-config-4.2.1-javadoc.jar
+2025-05-30 11:26:33,594 [Worker-25: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-config:4.2.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:4.2.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-30 11:26:34,077 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-service/src/main/java
+2025-05-30 11:26:34,080 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/main/resources
+2025-05-30 11:26:34,083 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/main/resources
+2025-05-30 11:26:34,085 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-service/src/test/java
+2025-05-30 11:26:34,088 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/test/resources
+2025-05-30 11:26:36,919 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/main/java
+2025-05-30 11:26:36,922 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-05-30 11:26:36,925 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-05-30 11:26:36,927 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/test/java
+2025-05-30 11:26:36,930 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/test/resources
+2025-05-30 11:26:39,179 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-service/src/main/java
+2025-05-30 11:26:39,183 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/main/resources
+2025-05-30 11:26:39,186 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/main/resources
+2025-05-30 11:26:39,187 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-service/src/test/java
+2025-05-30 11:26:39,191 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/test/resources
+2025-05-30 11:26:42,276 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-service/src/main/java
+2025-05-30 11:26:42,279 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/main/resources
+2025-05-30 11:26:42,281 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/main/resources
+2025-05-30 11:26:42,283 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-service/src/test/java
+2025-05-30 11:26:42,286 [Worker-19: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/test/resources
+2025-05-30 11:26:43,882 [Worker-19: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 5 project(s) in 32 sec
+2025-05-30 11:26:45,353 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-30 11:26:52,060 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:config-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\config-service\pom.xml.
+2025-05-30 11:26:54,122 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:currency-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\pom.xml.
+2025-05-30 11:26:55,010 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:discovery-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\discovery-service\pom.xml.
+2025-05-30 11:26:55,876 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:greating-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\greating-service\pom.xml.
+2025-05-30 11:26:56,538 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:product-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\pom.xml.
+2025-05-30 11:27:02,404 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-service/src/main/java
+2025-05-30 11:27:02,408 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/main/resources
+2025-05-30 11:27:02,410 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/main/resources
+2025-05-30 11:27:02,411 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-service/src/test/java
+2025-05-30 11:27:02,414 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/test/resources
+2025-05-30 11:27:03,902 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-service/src/main/java
+2025-05-30 11:27:03,905 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/main/resources
+2025-05-30 11:27:03,907 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/main/resources
+2025-05-30 11:27:03,908 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-service/src/test/java
+2025-05-30 11:27:03,909 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/test/resources
+2025-05-30 11:27:05,151 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-service/src/main/java
+2025-05-30 11:27:05,154 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/main/resources
+2025-05-30 11:27:05,157 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/main/resources
+2025-05-30 11:27:05,158 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-service/src/test/java
+2025-05-30 11:27:05,161 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/test/resources
+2025-05-30 11:27:06,514 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /greating-service/src/main/java
+2025-05-30 11:27:06,515 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greating-service/src/main/resources
+2025-05-30 11:27:06,517 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greating-service/src/main/resources
+2025-05-30 11:27:06,518 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /greating-service/src/test/java
+2025-05-30 11:27:06,521 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greating-service/src/test/resources
+2025-05-30 11:27:07,685 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/main/java
+2025-05-30 11:27:07,689 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-05-30 11:27:07,692 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-05-30 11:27:07,695 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/test/java
+2025-05-30 11:27:07,698 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/test/resources
+2025-05-30 11:27:11,183 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 5 poms: local refresh takes 0,00 sec, refresh facades takes 16,00 sec, update config takes 7,00 sec 
+2025-05-30 11:27:12,381 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:27:12,460 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-30 11:27:12,480 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\config-service\src\test\resources
+2025-05-30 11:27:15,177 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:27:15,271 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-05-30 11:27:15,348 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 11:27:16,073 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:27:16,110 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-30 11:27:16,121 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\discovery-service\src\test\resources
+2025-05-30 11:27:16,705 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:27:16,745 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-30 11:27:16,759 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\greating-service\src\test\resources
+2025-05-30 11:27:17,487 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:27:17,527 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-05-30 11:27:17,550 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 11:37:46,219 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-30 11:37:50,240 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:config-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\config-service\pom.xml.
+2025-05-30 11:37:51,549 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:currency-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\pom.xml.
+2025-05-30 11:37:52,186 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:discovery-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\discovery-service\pom.xml.
+2025-05-30 11:37:52,622 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:greating-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\greating-service\pom.xml.
+2025-05-30 11:37:52,977 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:product-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\pom.xml.
+2025-05-30 11:37:57,277 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-service/src/main/java
+2025-05-30 11:37:57,279 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/main/resources
+2025-05-30 11:37:57,280 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/main/resources
+2025-05-30 11:37:57,281 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config-service/src/test/java
+2025-05-30 11:37:57,283 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config-service/src/test/resources
+2025-05-30 11:37:58,065 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-service/src/main/java
+2025-05-30 11:37:58,067 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/main/resources
+2025-05-30 11:37:58,068 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/main/resources
+2025-05-30 11:37:58,069 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-service/src/test/java
+2025-05-30 11:37:58,070 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/test/resources
+2025-05-30 11:37:59,043 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-service/src/main/java
+2025-05-30 11:37:59,044 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/main/resources
+2025-05-30 11:37:59,045 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/main/resources
+2025-05-30 11:37:59,046 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-service/src/test/java
+2025-05-30 11:37:59,047 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/test/resources
+2025-05-30 11:37:59,840 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /greating-service/src/main/java
+2025-05-30 11:37:59,841 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greating-service/src/main/resources
+2025-05-30 11:37:59,843 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greating-service/src/main/resources
+2025-05-30 11:37:59,843 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /greating-service/src/test/java
+2025-05-30 11:37:59,845 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /greating-service/src/test/resources
+2025-05-30 11:38:00,464 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/main/java
+2025-05-30 11:38:00,466 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-05-30 11:38:00,468 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-05-30 11:38:00,469 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/test/java
+2025-05-30 11:38:00,471 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/test/resources
+2025-05-30 11:38:01,928 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 5 poms: local refresh takes 0,00 sec, refresh facades takes 10,00 sec, update config takes 3,00 sec 
+2025-05-30 11:38:02,360 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:38:02,399 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-30 11:38:02,412 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\config-service\src\test\resources
+2025-05-30 11:38:03,409 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:38:03,450 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-05-30 11:38:03,469 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 11:38:03,874 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:38:03,896 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-30 11:38:03,906 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\discovery-service\src\test\resources
+2025-05-30 11:38:04,276 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:38:04,304 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-30 11:38:04,313 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\greating-service\src\test\resources
+2025-05-30 11:38:04,723 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:38:04,755 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-05-30 11:38:04,776 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 11:46:11,587 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 11:46:11,609 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-05-30 11:46:11,624 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 13:09:27,998 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 13:09:28,048 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-05-30 13:09:28,061 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 13:18:44,943 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 13:18:44,956 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-05-30 13:18:44,973 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 13:21:24,924 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 13:21:24,937 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-05-30 13:21:24,957 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 13:21:26,564 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 13:21:26,580 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-05-30 13:21:26,594 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 14:14:09,857 [Worker-91: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:currency-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\pom.xml.
+2025-05-30 14:14:23,888 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-30 14:14:23,892 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-30 14:14:23,904 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 14:14:25,304 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 14:14:25,353 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-05-30 14:14:25,379 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 14:14:26,480 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-30 14:14:27,459 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:currency-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\pom.xml.
+2025-05-30 14:14:30,377 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-service/src/main/java
+2025-05-30 14:14:30,378 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/main/resources
+2025-05-30 14:14:30,381 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/main/resources
+2025-05-30 14:14:30,382 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /currency-service/src/test/java
+2025-05-30 14:14:30,383 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /currency-service/src/test/resources
+2025-05-30 14:14:32,366 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 3,00 sec, update config takes 1,00 sec 
+2025-05-30 14:14:43,105 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 14:14:43,151 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-05-30 14:14:43,174 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 14:44:26,243 [Worker-93: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:currency-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\pom.xml.
+2025-05-30 14:44:28,139 [Worker-93: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.0/caffeine-3.2.0.pom
+2025-05-30 14:44:28,236 [Worker-93: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.0/caffeine-3.2.0.pom
+2025-05-30 14:44:28,288 [Worker-93: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom
+2025-05-30 14:44:28,302 [Worker-93: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom
+2025-05-30 14:44:28,347 [Worker-93: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.pom
+2025-05-30 14:44:28,361 [Worker-93: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.pom
+2025-05-30 14:44:28,406 [Worker-93: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.36.0/error_prone_parent-2.36.0.pom
+2025-05-30 14:44:28,426 [Worker-93: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.36.0/error_prone_parent-2.36.0.pom
+2025-05-30 14:44:29,158 [Worker-93: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.0/caffeine-3.2.0.jar
+2025-05-30 14:44:29,330 [Worker-93: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.0/caffeine-3.2.0.jar
+2025-05-30 14:44:29,361 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+2025-05-30 14:44:29,370 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+2025-05-30 14:44:29,422 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar
+2025-05-30 14:44:29,430 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar
+2025-05-30 14:44:31,948 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 14:44:32,409 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 14:44:32,446 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.0/caffeine-3.2.0-sources.jar
+2025-05-30 14:44:32,505 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.2.0/caffeine-3.2.0-sources.jar
+2025-05-30 14:44:32,515 [Worker-98: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.ben-manes.caffeine:caffeine:3.2.0
+2025-05-30 14:44:32,843 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0-sources.jar
+2025-05-30 14:44:32,927 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0-sources.jar
+2025-05-30 14:44:32,939 [Worker-98: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jspecify:jspecify:1.0.0
+2025-05-30 14:44:33,049 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0-sources.jar
+2025-05-30 14:44:33,072 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0-sources.jar
+2025-05-30 14:44:33,081 [Worker-98: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.errorprone:error_prone_annotations:2.36.0
+2025-05-30 14:44:35,507 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 14:44:35,531 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 14:45:59,038 [Worker-97: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:currency-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\pom.xml.
+2025-05-30 14:46:01,333 [Worker-97: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.pom
+2025-05-30 14:46:01,343 [Worker-97: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.pom
+2025-05-30 14:46:01,383 [Worker-97: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.pom
+2025-05-30 14:46:01,394 [Worker-97: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.pom
+2025-05-30 14:46:01,435 [Worker-97: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.pom
+2025-05-30 14:46:01,443 [Worker-97: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.pom
+2025-05-30 14:46:01,480 [Worker-97: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.21.1/error_prone_parent-2.21.1.pom
+2025-05-30 14:46:01,491 [Worker-97: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.21.1/error_prone_parent-2.21.1.pom
+2025-05-30 14:46:02,479 [Worker-97: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar
+2025-05-30 14:46:02,665 [Worker-97: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar
+2025-05-30 14:46:02,706 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar
+2025-05-30 14:46:02,719 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar
+2025-05-30 14:46:04,555 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 14:46:04,612 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 14:46:05,347 [Worker-96: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8-sources.jar
+2025-05-30 14:46:05,420 [Worker-96: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8-sources.jar
+2025-05-30 14:46:05,433 [Worker-96: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.ben-manes.caffeine:caffeine:3.1.8
+2025-05-30 14:46:05,607 [Worker-96: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1-sources.jar
+2025-05-30 14:46:05,642 [Worker-96: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1-sources.jar
+2025-05-30 14:46:05,653 [Worker-96: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.errorprone:error_prone_annotations:2.21.1
+2025-05-30 14:46:08,551 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 14:46:08,592 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 17:02:14,908 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:02:15,211 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 17:02:18,423 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:02:18,495 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 17:09:23,259 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:09:23,284 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\currency-service\src\test\resources
+2025-05-30 17:13:39,649 [Worker-129: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:product-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\pom.xml.
+2025-05-30 17:13:44,742 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-30 17:13:44,753 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-30 17:13:44,776 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:13:46,156 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:13:46,208 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-05-30 17:13:46,231 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:13:47,024 [Worker-130: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-30 17:13:47,925 [Worker-130: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:product-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\pom.xml.
+2025-05-30 17:13:50,552 [Worker-130: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/main/java
+2025-05-30 17:13:50,553 [Worker-130: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-05-30 17:13:50,554 [Worker-130: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-05-30 17:13:50,555 [Worker-130: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/test/java
+2025-05-30 17:13:50,556 [Worker-130: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/test/resources
+2025-05-30 17:13:51,961 [Worker-130: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 3,00 sec, update config takes 0,00 sec 
+2025-05-30 17:13:53,082 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:13:53,151 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-05-30 17:13:53,192 [Worker-131: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:15:01,484 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:15:01,497 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-05-30 17:15:01,507 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:16:24,157 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:16:24,171 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-05-30 17:16:24,181 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:22:12,446 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:22:12,460 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:27:09,851 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:27:09,873 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:28:41,857 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:28:41,887 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:28:44,914 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:28:44,927 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:29:55,412 [Worker-134: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:product-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\pom.xml.
+2025-05-30 17:29:59,654 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:29:59,691 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:29:59,886 [Worker-134: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-05-30 17:30:00,805 [Worker-134: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:product-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\pom.xml.
+2025-05-30 17:30:03,408 [Worker-134: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/main/java
+2025-05-30 17:30:03,410 [Worker-134: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-05-30 17:30:03,413 [Worker-134: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2025-05-30 17:30:03,414 [Worker-134: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/test/java
+2025-05-30 17:30:03,416 [Worker-134: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/test/resources
+2025-05-30 17:30:05,106 [Worker-134: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 3,00 sec, update config takes 1,00 sec 
+2025-05-30 17:30:05,931 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:30:05,962 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:33:15,358 [Worker-138: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus:product-service:0.0.1-SNAPSHOT @ C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\pom.xml.
+2025-05-30 17:33:19,718 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:33:19,769 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:33:21,388 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:33:21,421 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:43:26,487 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:43:26,506 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:43:52,602 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:43:52,617 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:45:50,403 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:45:50,416 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
+2025-05-30 17:48:12,755 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-30 17:48:12,766 [Worker-141: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Suporte 3\Desktop\ARQUIVOS GERAIS\OUTROS\java-microservices\product-service\src\test\resources
